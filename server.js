@@ -23,7 +23,7 @@ app.use(express.json());
 app.use("/api/users", userRoutes);
 //  Root Route
 app.get("/", (req, res) => {
-  res.send("🚀 Login and Signup API is running!");
+  res.send(" Login and Signup API is running!");
 });
 //  Error Handling for Unknown Routes
 app.use((req, res) => {
