@@ -12,7 +12,7 @@ It includes **user signup, login, and authentication with JWT tokens**.
 - **MongoDB (Mongoose)**
 - **JWT (JSON Web Token)**
 - **bcrypt (Password Hashing)**
-- **Render (https://milestone-2-1-7tqg.onrender.com/)**
+- **Render link: (https://milestone-2-1-7tqg.onrender.com/)**
 - loom link: https://www.loom.com/share/2886a744348346c8b74c96b15c104948?sid=a1f1cd6f-2722-4000-ba15-ad39b92e6132
 
 ---
