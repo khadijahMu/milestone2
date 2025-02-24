@@ -19,7 +19,7 @@ const loginUser = async (req, res) => {
     res.status(400).json({ message: error.message });
   }
 };
-// Get User Profile (Protected)
+// Gets the User Profile
 const getUserProfile = async (req, res) => {
   try {
     const user = await User.findById(req.user.userId).select("-password");
