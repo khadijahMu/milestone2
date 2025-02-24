@@ -14,7 +14,7 @@ mongoose
   .then(() => console.log(" Connected to MongoDB"))
   .catch((err) => {
     console.error("MongoDB Connection Error:", err.message);
-    process.exit(1); // Stop the server if database connection fails
+    process.exit(1);
   });
 // Middleware
 app.use(cors()); // Enable CORS for cross-origin requests
