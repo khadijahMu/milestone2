@@ -16,7 +16,7 @@ mongoose
     console.error(" MongoDB Connection Error:", err.message);
     process.exit(1);
   });
-//  Middleware
+//  Middlewares 
 app.use(cors());
 app.use(express.json());
 //  API Routes
