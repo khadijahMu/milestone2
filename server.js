@@ -29,7 +29,7 @@ app.get("/", (req, res) => {
 app.use((req, res) => {
   res.status(404).json({ message: "Route not found" });
 });
-//  Start Server (Ensure Binding to "0.0.0.0" for Render)
+//  Start Server
 app.listen(PORT, "0.0.0.0", () => {
   console.log(`Server running on http://0.0.0.0:${PORT}`);
 });
